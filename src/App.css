@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body{
+  margin: 20px;
+  background: rgb(155,156,245);
+  background: radial-gradient(circle, rgba(155,156,245,1) 14%, rgba(78,209,255,1) 52%, rgba(118,0,227,1) 89%);
+}
+
+.maincontainer{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}

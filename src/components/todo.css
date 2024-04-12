@@ -1,0 +1,40 @@
+.todo-container{
+    margin-top: 20px;
+    width: 100%;
+}
+
+.todo-wrapper{
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    color: white;
+    padding: 10px;
+    align-items: center;
+}
+
+.todo-icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 5px;
+}
+
+.todo-icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    font-size: 22px;
+    color: white;
+}
+
+.editableInput{
+    display: flex;
+    width: 410px;
+    border: 1px solid white;
+    padding: 5px;
+    outline: none;
+    background: rgb(171,171,255);
+    background: radial-gradient(circle, rgba(171,171,255,1) 27%, rgba(143,225,255,1) 98%);
+    color: white;
+}

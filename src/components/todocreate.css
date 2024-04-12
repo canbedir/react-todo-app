@@ -1,0 +1,48 @@
+.container{
+    width: 500px;
+}
+
+.todo-create{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    row-gap: 10px;
+    align-items: flex-end;
+}
+
+.todo-input{
+    display: flex;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    outline: none;
+    width: 100%;
+    background: rgb(171,171,255);
+    background: radial-gradient(circle, rgba(171,171,255,1) 27%, rgba(143,225,255,1) 98%);
+    color: white;
+}
+
+.todo-input::placeholder{
+    color: whitesmoke;
+}
+
+.todo-create-button{
+    display: flex;
+    height: 35px;
+    width: 80px;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background: rgb(143,225,255);
+    background: radial-gradient(circle, rgba(143,225,255,1) 23%, rgba(171,171,255,1) 94%);
+    transition: 0.2s;
+    outline: none;
+    color: white;
+}
+
+.todo-create-button:hover{
+    height: 40px;
+    width: 90px;
+}
